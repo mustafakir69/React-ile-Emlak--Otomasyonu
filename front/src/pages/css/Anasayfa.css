@@ -1,0 +1,58 @@
+/* Anasayfa.css */
+
+.content {
+  padding: 24px;
+  background: #fff;
+}
+
+.ilan-kart {
+  margin-bottom: 16px;
+  transition: transform 0.3s ease; 
+}
+
+.ilan-kart:hover {
+  transform: scale(1.05); 
+}
+
+.ilan-kart-resim {
+  height: 200px;
+  object-fit: cover;
+}
+
+.show-more-container {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.show-more-button {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-bottom: 16px;
+  }
+
+  .content {
+    padding: 12p, x;
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    padding: 8px;
+  }
+
+  .ilan-kart-resim {
+    height: 150px;
+  }
+
+  .show-more-button {
+    width: 100%;
+  }
+}
+.detaylar-button {
+  background-color: #001529 !important;
+  border-color: #001529 !important;
+  color: white;
+}

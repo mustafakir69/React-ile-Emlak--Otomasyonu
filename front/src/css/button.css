@@ -1,0 +1,14 @@
+.button-css {
+    margin-right: 10px;
+    background-color: #001529;
+    border-color: #001529;
+    color: #ffffff;
+}
+
+.button-css:hover,
+.button-css:focus,
+.button-css:active {
+    background-color: #001529 !important;
+    border-color: #001529 !important;
+    color: #ffffff !important;
+}

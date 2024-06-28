@@ -1,0 +1,40 @@
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #001529;
+  color: white;
+}
+
+.navbar-actions {
+  margin-right: 20px;
+}
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-logo-image {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.navbar-logo-text {
+  color: white;
+  font-weight: bold;
+}
+
+.ant-menu-item a{
+  color: gray!important; 
+}
+.ant-menu-item a:hover{
+  color: white!important; 
+}
+.ant-menu-item a:focus{
+  color: white!important; 
+}
+

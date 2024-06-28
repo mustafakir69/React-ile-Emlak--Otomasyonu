@@ -1,0 +1,52 @@
+
+.ant-modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .ant-modal-header {
+    background-color: #001529;
+    color: white;
+    border-bottom: none;
+  }
+  
+  .ant-modal-title {
+    color: white;
+  }
+  
+  .ant-modal-close-x {
+    color: white;
+  }
+  
+  .ant-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+    .ant-card-head {
+    background-color: #fafafa;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .ant-card-head-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+
+  .ant-card-body {
+    padding: 16px;
+  }
+ 
+  .ant-card-body img {
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .ant-card-body p {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .string-size p strong{
+    font-weight: 600;
+  }
